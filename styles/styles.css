@@ -1,0 +1,152 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  height: 150vh;
+  font-size: 1.1rem;
+}
+
+/*------------------Titles Style-------------------*/
+
+h1,
+h2 {
+  font-weight: 700;
+}
+
+h3 {
+  margin-top: 60px;
+  font-weight: 400;
+}
+
+/*------------------Header Style--------------------*/
+
+header {
+  height: 40vh;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(111, 82, 227);
+  color: rgb(255, 255, 255);
+}
+
+.role {
+  margin-top: 60px;
+}
+
+.role h1,
+.role h2 {
+  margin: 10px 15px;
+}
+
+.headshot {
+  display: flex;
+}
+
+.headshot img {
+  align-self: flex-end;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+
+/*------------------Presentation Style--------------------*/
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.presentation-text {
+  font-size: 1rem;
+  width: 60%;
+  color: #133564;
+  padding: 8%;
+}
+
+.presentation-text h2 {
+  font-size: 1.7rem;
+}
+
+svg {
+  width: 400px;
+  height: 400px;
+}
+
+/*------------------footer Style--------------------*/
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 35vh;
+  font-size: 1.5rem;
+  background-color: #133564;
+  padding-left: 100px;
+  color: white;
+}
+
+footer h2,
+footer P {
+  padding: 0;
+  margin: 0;
+}
+
+.social img {
+  background-color: white;
+  margin-top: 50px;
+  width: 100px;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:nth-child(2) {
+  margin-left: 20px;
+}
+
+/*------------------Other Style--------------------*/
+
+span {
+  background-color: rgb(108, 233, 168);
+  padding: 3px;
+  color: #133564;
+}
+
+@media screen and (max-width: 768px) {
+  header,
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  section {
+    justify-content: center;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .headshot img {
+    width: 150px;
+    height: 150px;
+  }
+  svg {
+    display: none;
+  }
+
+  footer {
+    font-size: 1rem;
+    padding-left: 0;
+  }
+
+  .social img {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+  }
+}
