@@ -1,6 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
-  height: 150vh;
+  height: 1600px;
   font-size: 1.1rem;
 }
 
@@ -19,11 +19,11 @@ h3 {
 /*------------------Header Style--------------------*/
 
 header {
-  height: 40vh;
+  height: 450px;
   display: flex;
   justify-content: space-around;
-  background-color: rgb(111, 82, 227);
-  color: rgb(255, 255, 255);
+  background-color: #6f52e3;
+  color: #000000;
 }
 
 .role {
@@ -76,11 +76,11 @@ footer {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  height: 35vh;
+  height: 380px;
   font-size: 1.5rem;
   background-color: #133564;
   padding-left: 100px;
-  color: white;
+  color: #ffffff;
 }
 
 footer h2,
@@ -90,7 +90,7 @@ footer P {
 }
 
 .social img {
-  background-color: white;
+  background-color: #ffffff;
   margin-top: 50px;
   width: 100px;
 }
@@ -107,7 +107,7 @@ a:nth-child(2) {
 /*------------------Other Style--------------------*/
 
 span {
-  background-color: rgb(108, 233, 168);
+  background-color: #6ce9a8;
   padding: 3px;
   color: #133564;
 }
